@@ -13,6 +13,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <>
       <html lang="en">
+        <link
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet"
+        />
+
         <body>
           <header>
             <Navbar></Navbar>
