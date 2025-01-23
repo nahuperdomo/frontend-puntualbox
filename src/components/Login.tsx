@@ -6,11 +6,11 @@ const Login = () => {
 
 
     const handleSubmit = (e: React.FormEvent) => {
-        e.preventDefault;
+        e.preventDefault();
         console.log("Email", email);
         console.log("Password", password);
+    };
 
-    }
     return (
         <div className="bg-white shadow-md rounded-md p-6 max-w-sm mx-auto">
             <h2 className="text-2xl font-bold text-center mb-4">Iniciar Sesión</h2>
