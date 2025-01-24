@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Navbar = () => {
     return (
-        <nav className="bg-blue-900 p-8">
+        <nav className="bg-blue-800 p-8">
             <div className="flex items-center justify-between space-x-2">
                 <h1 className="text-3xl font-bold mb-6 leading-tight text-yellow-300"><a href="/">ExactDrop</a></h1>
                 <ul className="flex justify-center space-x-4">
