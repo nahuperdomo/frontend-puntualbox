@@ -35,10 +35,10 @@ export default function Home() {
       </div>
 
       {/* Sobre Nosotros */}
-      <div className="about py-16 px-6 bg-gray-100">
+      <div id="about" className="about py-16 px-6 bg-yellow-300">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold text-blue-500 mb-6">Sobre Nosotros</h2>
-          <p className="text-lg leading-relaxed max-w-3xl mx-auto">
+          <p className="text-lg leading-relaxed max-w-3xl mx-auto text-blue-900">
             En ExactDrop, estamos redefiniendo la experiencia de recibir tus compras online.
             Combinamos tecnología avanzada con lockers inteligentes y un sistema de entregas programadas para que tengas el control total sobre cuándo y dónde recibir tus pedidos.
             <br />
@@ -49,13 +49,13 @@ export default function Home() {
       </div>
 
       {/* Contacto */}
-      <div className="contact bg-white py-16 px-6">
-        <div className="container mx-auto text-center">
-          <h2 className="text-4xl font-bold text-blue-500 mb-6">Contacto</h2>
-          <p className="text-lg mb-8">
+      <div id="contact" className="contact bg-contact-bg bg-cover bg-fixed py-16 px-6">
+        <div className="container mx-auto">
+          <h2 className="text-4xl font-bold text-blue-500 mb-6 text-center">Contacto</h2>
+          <p className="text-lg mb-8 text-blue-900 text-center">
             ¿Tenés preguntas o querés trabajar con nosotros? ¡Escribinos!
           </p>
-          <form className="max-w-xl mx-auto bg-gray-50 p-8 rounded-md shadow-md">
+          <form className="max-w-xl mx-auto bg-gray-50 p-8 rounded-md shadow-md text-blue-900">
             <div className="mb-4">
               <label className="block text-sm font-bold mb-2" htmlFor="name">
                 Nombre
@@ -87,12 +87,12 @@ export default function Home() {
                 id="message"
                 placeholder="Tu mensaje"
                 rows={4}
+                style={{ resize: 'none' }}
               />
             </div>
             <button
               type="submit"
-              className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600"
-            >
+              className="w-full bg-blue-500 text-white py-2 rounded-md hover:bg-blue-600">
               Enviar
             </button>
           </form>
