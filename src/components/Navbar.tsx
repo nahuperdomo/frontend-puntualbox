@@ -24,10 +24,14 @@ const Navbar = () => {
                 </ul>
                 <div className="flex space-x-4">
                     <button className="bg-white text-blue-500 font-bold py-3 px-8 rounded hover:bg-gray-200">
-                        <a href="/register">Registrarse</a>
+                        <Link href="/register">
+                            Registrarse
+                        </Link>
                     </button>
                     <button className="bg-yellow-300 text-blue-500 px-8 py-3 font-bold rounded-md hover:bg-yellow-400">
-                        <a href="/login">Login</a>
+                        <Link href="/login">
+                            Login
+                        </Link>
                     </button>   
                 </div>
             </div>
