@@ -30,7 +30,7 @@ const Navbar = () => {
                     </button>
                     <button className="bg-yellow-300 text-blue-500 px-8 py-3 font-bold rounded-md hover:bg-yellow-400">
                         <Link href="/login">
-                            Login
+                            LoginPuto
                         </Link>
                     </button>   
                 </div>
